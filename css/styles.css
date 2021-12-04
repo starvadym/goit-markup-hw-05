@@ -970,6 +970,7 @@ margin-right: 0;
   visibility: hidden;
   pointer-events: none;
 }
+/* Начальное состояние модального окна */
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.2);
@@ -985,6 +986,8 @@ margin-right: 0;
   padding: 15px;
 
   background: #fff;
+
+/* Появление и скрытие модального окна анимировано при помощи перехода с произвольным эффектом */
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-time) var(--transition-function);
