@@ -22,8 +22,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  /* background-color: var(--primary-white-color); */
-  background: #e5e5e5;
   color: var(--primary-text-color);
 }
 .page-header {
@@ -435,7 +433,7 @@ margin-right: 0;
   display: flex;
   margin: 0;
   padding: 0;
-  margin-top: 50px;
+
 }
 /* Очистка отступа элемента */
 
@@ -444,6 +442,7 @@ margin-right: 0;
 }
 .activity h2 {
   margin: 0;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -983,11 +982,13 @@ width: 370px;
   top: 50%;
   left: 50%;
 
-  min-height: 528px;
-  min-width: 581px;
+  min-height: 581px;
+  min-width: 528px;
   padding: 15px;
 
-  background: #fff;
+  background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 
   /* Появление и скрытие модального окна анимировано при помощи перехода с произвольным эффектом */
 
